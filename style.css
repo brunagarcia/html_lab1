@@ -1,21 +1,33 @@
 body{
-    background-color: cornflowerblue;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 h1{
     background-color: white;
+    padding: 5px;
+    border-bottom: solid rgb(245, 219, 241);
+    color: rgb(245, 219, 241);
 }
 
-#bio{
-    background-color: rgb(204, 226, 247);
+.content{
+    background-color: rgb(245, 219, 241);
+    padding: 5px;
+    margin: 3px;
 }
 
-#list{
-    background-color: rgb(204, 226, 247); 
+p{
+    margin: 2px;
+}
+
+a{
+    margin: 3px;
+    padding: 5px;
 }
 
 img{
+    margin: 2px;
+    padding: 2px;
     width: 50px;
     height: 50px;
 }
