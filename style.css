@@ -1,17 +1,32 @@
 body{
-    background-color: white;
+    background-image: url("images/hypnotize.png");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1{
     background-color: white;
+    text-shadow: 2px 2px rgb(238, 238, 238);
     padding: 5px;
-    border-bottom: solid rgb(245, 219, 241);
-    color: rgb(245, 219, 241);
+    border-bottom: solid rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+}
+
+p{
+    overflow: auto;
+
+}
+
+#bogart{
+    width: 40%;
+    height: 40%;
+    float: right;
+    /* display: block;
+    margin: 20px auto 20px auto; */
 }
 
 .content{
-    background-color: rgb(245, 219, 241);
+    align-items: center;
+    background-color: rgb(238, 238, 238);
     padding: 5px;
     margin: 3px;
 }
